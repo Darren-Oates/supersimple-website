@@ -660,6 +660,7 @@ div{
 
 .container-13g{
   margin-top: 80px;
+  margin-bottom: 80px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
