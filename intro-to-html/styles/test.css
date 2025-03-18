@@ -102,12 +102,34 @@ p{
 
 /* Twitter Add Friend ----------------------------------------------- */
 
-.friends-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  margin-top: 40px;
-  column-gap: 10px;
-  row-gap: 30px;
+@media (max-width: 850px) {
+  .friends-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 40px;
+    column-gap: 10px;
+    row-gap: 30px;
+  }
+}
+
+@media (min-width: 851px) and (max-width: 1200px) {
+  .friends-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 40px;
+    column-gap: 10px;
+    row-gap: 30px;
+  }
+}
+
+@media (min-width: 1201px) {
+  .friends-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 40px;
+    column-gap: 10px;
+    row-gap: 30px;
+  }
 }
 
 .twitter-friends{     
