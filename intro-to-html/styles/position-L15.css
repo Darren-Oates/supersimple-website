@@ -1,0 +1,117 @@
+body{
+  height: 3000px;
+}
+
+.close-button{
+  position: absolute;
+  left: -18px;
+  top: -18px;
+
+  background-color: black;
+  color: white;
+  font-family: arial;
+  font-size: 20px;
+  font-weight: 100;
+  border: none;
+  width: 45px;
+  height: 45px;
+  border-radius: 25px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+}
+
+.bottom-right{
+  width: 320px;
+  height: 180px;
+  background-color: gray;
+
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+}
+
+.timestamp{
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+
+  background-color: black;
+  color: white;
+  font-family: roboto, arial;
+  padding: 2px 6px;
+}
+
+/* shoe */
+
+.item-container{
+  position: relative;
+  top: 10px;
+  left: 10px;
+
+  display: inline-block;
+}
+
+.img-shoe{
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.discount{
+  position: absolute;
+  top: 10px;
+  right: 0;
+
+  color: white;
+  background-color: rgb(255, 166, 0);
+  border: none;
+  border-radius: 2px 0px 0px 2px;
+  font-family: roboto, arial;
+  font-size: 16px;
+  font-weight: 300;
+  padding: 4px 16px;
+}
+
+.overlay{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: all 0.3s;
+}
+
+.item-container:hover .overlay{
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.item-container:hover .overlay-btn{
+  color: rgb(128, 128, 128);
+}
+
+.overlay-btn{
+  font-family: roboto, arial;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  background-color: rgba(255, 255, 255, 0);
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+
+
+.overlay-btn:hover{
+  border-width: 0px;
+  box-shadow: inset 3px 3px 4px 0px rgba(0, 0, 0, 0.3);
+}

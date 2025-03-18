@@ -1,0 +1,150 @@
+body{
+  height: 3000px;
+}
+
+.facebook-header-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+
+  background-color: white;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(214, 214, 214);
+
+}
+
+.fb-left-section{
+  display: flex;
+  align-items: center;
+}
+
+.fb-img{
+  width: 36px;
+  border-radius: 18px;
+  margin-right: 12px;
+}
+
+.fb-name{
+  font-family: roboto;
+  font-weight: 500;
+}
+
+
+
+.fb-add-btn{
+  color: white;
+  background-color: rgb(0, 132, 255);
+  border: none;
+  border-radius: 4px;
+  font-family: roboto;
+  font-weight: 500;
+  padding: 8px 12px;
+  margin-right: 12px;
+}
+
+.fb-message-btn{
+  background-color: rgb(199, 199, 199);
+  border: none;
+  border-radius: 4px;
+  font-family: roboto;
+  font-weight: 500;
+  padding: 8px 12px;
+  margin-right: 12px;
+}
+
+/* strip */
+
+.black-strip{
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 60px;
+
+  height: 60px;
+  background-color: black;
+
+}
+
+/* discord */
+
+div{
+  font-family: roboto;
+}
+
+.discord-container{
+  position: fixed;
+  left: 0;
+  top: 120px;
+  bottom: 0;
+
+  display: flex;
+  width: 280px;
+  
+}
+
+.disc-left-side{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 14px;
+  background-color: rgb(49, 51, 54);
+}
+
+.server-img{
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.disc-right-side{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 15px;
+  background-color: rgb(70, 73, 77);
+}
+
+.info-row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info-text{
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+}
+
+.info-plus{
+  font-size: 24px;
+  font-weight: 400;
+  color: rgb(189, 189, 189);
+}
+
+.channel-row{
+  display: flex;
+  gap: 12px;
+}
+
+.tag{
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(167, 167, 167);
+}
+
+.channel-name{
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(167, 167, 167);
+  
+}

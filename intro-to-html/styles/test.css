@@ -1,0 +1,722 @@
+/* Socially Section ----------------------------------------------- */
+
+p{
+      font-family: Roboto;
+      margin-top: 0;
+      margin-bottom: 0;
+}
+
+.title-text{
+  font-size: 28px;
+}
+
+.sub-button{
+  background: linear-gradient(45deg, #ff0073, #962fbf);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 12px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 
+      0px 4px 6px rgba(0, 0, 0, 0.1), /* Subtle depth shadow */
+      0px 1px 3px rgba(0, 0, 0, 0.06); /* Light accent shadow */
+}
+
+.sub-button:hover {
+  transform: translateY(-2px); /* Lift effect */
+  box-shadow: 
+      0px 6px 10px rgba(0, 0, 0, 0.15), /* Stronger depth shadow */
+      0px 3px 6px rgba(0, 0, 0, 0.1); /* Slightly stronger accent shadow */
+}
+
+.sub-button:active {
+  transform: translateY(0); /* Return to flat state */
+  box-shadow: 
+      0px 2px 4px rgba(0, 0, 0, 0.1), /* Compressed shadow */
+      0px 1px 2px rgba(0, 0, 0, 0.06);
+}
+
+.register-text{
+  font-size: 20px;
+}
+
+.here-text{
+  text-decoration: underline;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.here-text:hover{
+  color: #ff0073;
+}
+
+/* Twitter Comment ----------------------------------------------- */
+
+.twitter-comment-box{
+  margin-top: 40px;
+  width: 300px;
+  display: inline-block;
+
+  display: flex;
+  flex-direction: row; /* Stack items horizontally */
+  align-items: center; /* Center-align items horizontally */
+  gap: 15px; /* Space between elements */      
+  
+  background-color: white;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05), /* Bottom shadow */
+              0 -2px 4px rgba(0, 0, 0, 0.05), /* Top shadow */
+              2px 0 4px rgba(0, 0, 0, 0.05), /* Right shadow */
+              -2px 0 4px rgba(0, 0, 0, 0.05); /* Left shadow */
+  border-radius: 8px; /* Optional: Add rounded corners */
+
+  padding: 8px 16px 8px 10px;
+
+}
+
+.twitter-pfp{
+  width:40px;
+  border-radius: 20px;
+
+}
+
+.comment{
+  border-style: none;
+  font-family: arial;
+  font-size: 14px;
+  color: rgb(54, 54, 54);
+}
+
+.tweet-button{
+  padding: 4px 10px;
+  color: white;
+  background-color: rgb(0, 174, 255);
+  border: none;
+  border-radius: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Twitter Add Friend ----------------------------------------------- */
+
+.friends-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin-top: 40px;
+  column-gap: 10px;
+  row-gap: 30px;
+}
+
+.twitter-friends{     
+  background-color: white;
+  min-width: 150px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05), /* Bottom shadow */
+              0 -2px 4px rgba(0, 0, 0, 0.05), /* Top shadow */
+              2px 0 4px rgba(0, 0, 0, 0.05), /* Right shadow */
+              -2px 0 4px rgba(0, 0, 0, 0.05); /* Left shadow */
+  border-radius: 8px; /* Optional: Add rounded corners */
+  padding: 0px;
+  transition: all 0.3s ease;
+}
+
+.twitter-friends:hover{
+  transform: translateY(-1px); /* Lift effect */
+  box-shadow: 
+      0px 6px 10px rgba(0, 0, 0, 0.15), /* Stronger depth shadow */
+      0px 3px 6px rgba(0, 0, 0, 0.1); /* Slightly stronger accent shadow */
+}
+
+.friends-pfp{
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.name-p{
+  margin-top: 4px;
+  margin-bottom: 5px;
+  margin-left: 8px;
+  font-family: arial;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.mutual-friends-container{
+  margin-left: 8px;
+}
+
+.mutual-friends-picture1{
+  width: 18px;
+  border-radius: 50px;
+  vertical-align: middle;
+  margin-right: -14px;
+}
+
+.mutual-friends-picture2{
+  width: 18px;
+  border-radius: 50px;
+  vertical-align: middle;
+  margin-right: 4px;
+}
+
+.mutual-p{
+  display: inline-block;
+  font-family: arial;
+  font-size: 12px;
+  color:  rgb(54, 54, 54);
+}
+
+.friend-button{
+  margin-top: 8px;
+  margin-bottom: 12px;
+  margin-left: 8px;
+  font-family: arial;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(0, 174, 255);
+  border: none;
+  border-radius: 4px;
+  padding: 7px 14px 7px 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.friend-button:hover{
+  transform: translateY(-1px); /* Lift effect */
+  box-shadow: 
+      0px 6px 10px rgba(0, 0, 0, 0.15), /* Stronger depth shadow */
+      0px 3px 6px rgba(0, 0, 0, 0.1); /* Slightly stronger accent shadow */
+}
+
+
+
+
+/* Google Search ----------------------------------------------- */
+
+.google-container{
+  margin-top: 150px;
+  text-align: center;
+  
+}
+
+.google-img{
+  width: 400px;
+
+}
+
+.google-searchbox{
+  margin-top: 15px;
+  width:800px;
+  font-family: roboto;
+  font-size: 20px;
+  color: rgb(143, 143, 143);
+  padding: 12px 20px 12px 20px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 
+  0px 6px 10px rgba(0, 0, 0, 0.15), /* Stronger depth shadow */
+  0px 3px 6px rgba(0, 0, 0, 0.1); /* Slightly stronger accent shadow */
+
+}
+
+.google-searchbox::placeholder{
+  color: rgb(158, 158, 158);
+}
+
+.search-button{
+  margin-top: 40px;
+  margin-right: 10px;
+  font-family: roboto;
+  background-color: rgb(235, 235, 235);
+  border: none;
+  border-radius: 6px;
+  font-size: 18px;
+  padding: 12px 20px 12px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.search-button:hover{
+  background-color: rgb(207, 207, 207);
+  box-shadow: 
+  0px 6px 10px rgba(0, 0, 0, 0.15), /* Stronger depth shadow */
+  0px 3px 6px rgba(0, 0, 0, 0.1); /* Slightly stronger accent shadow */
+}
+
+.lucky-button{
+  margin-top: 20px;
+  font-family: roboto;
+  background-color: rgb(235, 235, 235);
+  border: none;
+  border-radius: 6px;
+  font-size: 18px;
+  padding: 12px 20px 12px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.lucky-button:hover{
+  background-color: rgb(207, 207, 207);
+  box-shadow: 
+  0px 6px 10px rgba(0, 0, 0, 0.15), /* Stronger depth shadow */
+  0px 3px 6px rgba(0, 0, 0, 0.1); /* Slightly stronger accent shadow */
+}
+
+/* Grid ----------------------------------------------- */
+
+.a-grid {
+  margin-top: 300px;
+  display: grid;
+  grid-template-columns: 200px 75px;
+}
+
+.b-grid {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 50px 1fr 75px;
+}
+
+.c-grid {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 10px;
+}
+  
+
+/* Flexbox ----------------------------------------------- */
+
+.flex-a{
+  margin-top: 150px;
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-200{
+  background-color: lightblue;
+  width: 200px;
+}
+
+.flex-75{
+  background-color: lightpink;
+  width: 75px;
+}
+
+
+
+.flex-b{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-b1{
+  background-color: lightblue;
+  width: 50px;
+}
+
+.flex-b2{
+  background-color: lightpink;
+  flex: 1;
+}
+
+.flex-b3{
+  background-color: lightblue;
+  width: 75px;
+}
+
+
+.cont-c{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.flex-c{
+  background-color: lightpink;
+  width: 50px;
+}
+
+.cont-d{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+
+  border-width: 1px;
+  border-style: solid;
+  border-color: gray;
+  height: 50px;
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-d{
+  background-color: lightpink;
+  width: 50px;
+}
+
+div{
+  font-family: Arial;
+}
+
+.cont-e{
+  margin-top: 80px;
+  width: 300px;
+  border: solid;
+  border-width: 1px;
+  border-color: rgb(184, 184, 184);
+  border-radius: 8px;
+  padding: 8px 16px;
+
+  display: grid;
+  row-gap: 12px;
+  }
+
+.flex-e{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.notifications{
+  background-color: rgb(0, 140, 255);
+  color: white;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.cont-f{
+  margin-top: 80px;
+  margin-bottom: 80px;
+  border: solid;
+  border-color: gray;
+  border-radius: 8px;
+  border-width: 1px;
+  padding: 12px 20px;
+  background-color: rgb(151, 60, 255);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-f{
+  font-weight: bold;
+  color: white;
+}
+
+.search-f{
+  flex: 1;
+  margin-left: 60px;
+  margin-right: 60px;
+  border-radius: 20px;
+  padding: 10px 20px;
+  border: none;
+}
+
+.search-f::placeholder{
+  font-size: 14px;
+}
+
+.button-f{
+  padding: 10px 20px;
+  font-weight: bold;
+  border: solid;
+  border-color: white;
+  border-width: 1px;
+  border-radius: 6px;
+  color: white;
+  background-color: rgb(151, 60, 255);
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button-f:hover{
+  border-color: rgb(151, 60, 255);
+  background-color: rgb(133, 51, 228);
+  transform: translateY(-1px); /* Lift effect */
+  box-shadow: 
+      0px 6px 10px rgba(245, 128, 128, 0.15), /* Stronger depth shadow */
+      0px 3px 6px rgba(0, 0, 0, 0.1); /* Slightly stronger accent shadow */
+}
+
+
+.row-12g{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.img-12g{
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.info-12g{
+  margin-left: 16px;
+  width: 300px;
+}
+
+.name-12g{
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 3px;
+}
+
+.handle-12g, .category-12g{
+  color: gray;
+  font-size: 14px;
+}
+
+.handle-12g{
+  margin-bottom: 5px;
+}
+
+.category-12g{
+  font-size: 12px;
+}
+
+.button-12g{
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  background-color: rgb(0, 140, 255);
+  border: none;
+  border-radius: 8px;
+  padding: 8px 20px;
+}
+
+
+/* Lesson 13 - Nested Flexbox ----------------------------------------------- */
+
+.container-13a{
+  margin-top: 80px;
+  display: flex;
+  height: 80px;
+}
+
+.left-section-13a{
+  background-color: lightpink;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item-13a{
+  color: white;
+  background-color: black;
+}
+
+.right-section-13a{
+  background-color: lightblue;
+  width: 200px;
+}
+
+
+
+.container-13b{
+  margin-top: 80px;
+  display: flex;
+  height: 80px;
+}
+
+.left-section-13b{
+  background-color: lightpink;
+  width: 100px;
+}
+
+.right-section-13b{
+  background-color: lightblue;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centers row1 and row2 vertically */
+  height: 100%; /* Ensure it fills the parent height */
+}
+
+.row2-13b{
+  display: flex;
+  justify-content: space-between;
+}
+
+.item2-13b{
+  color: white;
+  background-color: black;
+}
+
+
+/* 13d & 13e */
+
+.container-13{
+  margin-top: 80px;
+  width: 420px;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.3);
+}
+
+.all-inboxes-13{
+  font-family: roboto;
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 20px;
+}
+
+.email-13{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+
+.profile-pic-13{
+  width: 52px;
+  border-radius: 26px;
+  margin-right: 14px;
+}
+
+.email-info-13{
+  flex: 1;
+}
+
+.from-info-row-13{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.name-13{
+  font-family: roboto;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.time-13{
+  font-family: roboto;
+  font-size: 14px;
+  color: gray;
+}
+
+.subject-13{
+  font-family: roboto;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+.message-13{
+  font-family: roboto;
+  color: gray;
+  font-size: 16px;
+}
+
+
+/* 13g */
+
+.container-13g{
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 420px;
+}
+
+.img-cont-13g{
+  margin-right: 12px;
+}
+
+.img-13g{
+  width: 50px;
+  border-radius: 25px;
+}
+
+.post-cont-13g{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.name-13g{
+  font-family: roboto;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.tag-13g{
+  font-family: roboto;
+  color: rgb(100, 100, 100);
+}
+
+.description-13g{
+  flex: 1;
+  width: 100%;
+  font-family: roboto;
+  margin-bottom: 16px;
+}
+
+.video-cont-13g{
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.vid-left-13g{
+  height: 100%;
+  width: 100px;
+  background-color: rgb(206, 206, 206);
+  border-radius: 20px 0px 0px 20px;
+  flex-shrink: 0; /* Prevents it from shrinking */
+}
+
+.vid-right-13g{
+  height: 98px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-style: solid;
+  border-color: rgb(206, 206, 206);
+  border-width: 1px;
+  border-radius: 0px 20px 20px 0px;
+  padding-left: 12px;
+}
+
+.yt-link-13g{
+  font-family: roboto;
+  color: rgb(100, 100, 100);
+  margin-bottom: 8px;
+}
+
+.vid-text-13g{
+  font-family: roboto;
+  font-size: 16px;
+}
+
+
+/* Lesson 14 Position Fixed ----------------------------------------------- */
+
